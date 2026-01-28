@@ -1,0 +1,21 @@
+# Serbian E-commerce Lead Scraper Configuration
+# Copy to config.yaml and customize as needed
+
+# Request settings
+timeout: 15
+sleep_min: 0.5
+sleep_max: 1.5
+max_concurrent: 10
+
+# User agent (include contact email for responsible scraping)
+user_agent: "QNCT-LeadScraper/2.0 (+contact: your@email.com)"
+
+# Custom e-commerce keywords (added to defaults)
+# ecom_keywords_extra:
+#   - custom_keyword
+#   - another_keyword
+
+# Custom Serbia keywords (added to defaults)
+# serbia_keywords_extra:
+#   - custom_city
+#   - custom_term
